@@ -1,11 +1,11 @@
 * Dependencies
 ** System Dependencies
 Arch linux \\
-Hyprland config based on: https://github.com/end-4/dots-hyprland \\
-uwufetch \\
-fcitx5 \\ 
-anthy \\
-emacs-nx \\
+Hyprland config based on: https://github.com/end-4/dots-hyprland
+uwufetch
+fcitx5
+anthy
+emacs-nx
 
 ** Emacs Dependencies
 elfeed
