@@ -1,16 +1,24 @@
 * Dependencies
 ** System Dependencies
 Arch linux  
+
 Hyprland config based on: https://github.com/end-4/dots-hyprland  
+
 uwufetch  
+
 fcitx5  
+
 anthy  
+
 emacs-nx  
 
 ** Emacs Dependencies
 elfeed  
+
 nov  
+
 anki-editor  
+
 magit  
 
 * How to install
@@ -20,15 +28,20 @@ Copy contents of the repo in ~/
 * Keybinds
 ** Emacs
 C-x w - open elfeed  
+
 C-x g - open magit  
 *** Anki-editor
 C-a - create\add a note type  
+
 C-d - create\add deck  
+
 C-f - Add "** Front" and "** Back" in org file  
+
 C-s - Push changes in all decks  
 
 ** Fcitx
 Super-SPC - Switch between Rus and Anthy  
+
 <F10> - Switch between Kana and Latin in Anthy  
 
 ** Hyprland
