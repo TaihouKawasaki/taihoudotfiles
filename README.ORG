@@ -1,6 +1,6 @@
 * Dependencies
 ** System Dependencies
-Arch linux \
+Arch linux \\
 Hyprland config based on: https://github.com/end-4/dots-hyprland
 uwufetch
 fcitx5
