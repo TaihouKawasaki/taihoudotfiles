@@ -49,6 +49,9 @@
 	      ("C-f" . "** Front
 ** Back")))
 
+(require 'elcord)
+(elcord-mode)
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -58,7 +61,7 @@
    '("http://anarchistnews.org/rss.xml"
      "https://theanarchistlibrary.org/feed"))
  '(package-selected-packages
-   '(anki-editor elfeed exec-path-from-shell magit nov wanderlust)))
+   '(anki-editor elcord elfeed exec-path-from-shell magit nov wanderlust)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
