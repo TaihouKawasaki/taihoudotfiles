@@ -13,6 +13,8 @@ anthy
 emacs-nx  
 
 ** Emacs Dependencies
+elcord
+
 elfeed  
 
 nov  
