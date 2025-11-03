@@ -23,6 +23,9 @@ anki-editor
 
 magit  
 
+company
+
+company-jedi
 * How to install
 Copy contents of the repo in ~/
 
@@ -40,6 +43,11 @@ C-d - create\add deck
 C-f - Add "** Front" and "** Back" in org file  
 
 C-s - Push changes in all decks  
+
+*** Company
+<tab> - Cycle though suggestions
+
+<RET> - autocomplete suggestion
 
 ** Fcitx
 Super-SPC - Switch between Rus and Anthy  
