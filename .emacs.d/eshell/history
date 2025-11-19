@@ -1,0 +1,47 @@
+paru
+paru -S openjdk8
+paru --search openjdk
+paru --search openjdk
+paru -S jdk8-openjdk
+fish
+clear
+mkdir oprationAI
+cd operationAI
+ls
+mkdir operationAI
+cd operationAI
+ls
+pip update
+paru -S python-pip
+clear
+pip update
+pip install update
+paru -S python-aiogram
+clear
+ls
+python main.py 
+paru -S sshs
+cp .emacs ~/taihoudotfiles
+ls
+cd MGKEITAssistant
+ls
+python main.py 
+python main.py
+python main.py
+python main.py 
+python main.py 
+python main.py 
+python main.py 
+python main.py 
+exit
+paru
+python main.py
+python main.py
+paru -S notmuch
+clear
+exit
+mv anki.org ~/Study/japanese/
+ls
+exit
+cp .emacs ~/taihoudotfiles/
+cp .emacs ~/taihoudotfiles/
