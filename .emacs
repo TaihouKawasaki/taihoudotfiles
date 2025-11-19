@@ -44,8 +44,8 @@
    '("http://anarchistnews.org/rss.xml"
      "https://theanarchistlibrary.org/feed"))
  '(package-selected-packages
-   '(anki-editor company company-jedi elcord elfeed exec-path-from-shell
-		 magit nov wanderlust)))
+   '(anki-editor company company-jedi elcord elfeed emms
+		 exec-path-from-shell magit nov wanderlust)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -79,3 +79,7 @@
   (add-to-list 'company-backends 'company-jedi))
 
 (add-hook 'python-mode-hook 'my/python-mode-hook)
+
+(emms-all)
+(setq emms-player-list '(emms-player-vlc)
+      emms-info-functions '(emms-info-native))
