@@ -40,11 +40,14 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(custom-safe-themes
+   '("ad7d874d137291e09fe2963babc33d381d087fa14928cb9d34350b67b6556b6d"
+     default))
  '(elfeed-feeds
    '("http://anarchistnews.org/rss.xml"
      "https://theanarchistlibrary.org/feed"))
  '(package-selected-packages
-   '(anki-editor company company-jedi elcord elfeed emms
+   '(abyss-theme anki-editor company company-jedi elcord elfeed emms
 		 exec-path-from-shell magit nov wanderlust)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
@@ -56,9 +59,9 @@
 (use-package anki-editor
   :after org
   :bind (:map org-mode-map
-	      ("C-a" . anki-editor-insert-note)
+	      ("C-z" . anki-editor-insert-note)
 	      ("C-d" . anki-editor-set-deck)
-	      ("C-s" . anki-editor-push-notes)
+	      ("C-p" . anki-editor-push-notes)
 	      ("C-f" . "** Front
 ** Back")))
 
@@ -83,3 +86,7 @@
 (emms-all)
 (setq emms-player-list '(emms-player-vlc)
       emms-info-functions '(emms-info-native))
+
+
+(set-frame-parameter nil 'alpha-background 50)
+(add-to-list 'default-frame-alist '(alpha-background . 50))
