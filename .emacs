@@ -1,3 +1,4 @@
+(add-to-list 'load-path "~/.emacs.d/loadpath/")
 (require 'package)
 
 ;; Nice macro for updating lists in place.
@@ -92,3 +93,6 @@
 (add-to-list 'default-frame-alist '(alpha-background . 50))
 
 (load-theme #'abyss t)
+
+(require 'sunrise)
+(add-to-list 'auto-mode-alist '("\\.zip\\'" . sunrise-virtual-mode))
