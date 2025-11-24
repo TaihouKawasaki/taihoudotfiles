@@ -88,11 +88,11 @@
 (setq emms-player-list '(emms-player-vlc)
       emms-info-functions '(emms-info-native))
 
-
-(set-frame-parameter nil 'alpha-background 50)
-(add-to-list 'default-frame-alist '(alpha-background . 50))
-
-(load-theme #'abyss t)
-
 (require 'sunrise)
-(add-to-list 'auto-mode-alist '("\\.zip\\'" . sunrise-virtual-mode))
+
+;; For GUI emacs
+
+;; (set-frame-parameter nil 'alpha-background 50)
+;; (add-to-list 'default-frame-alist '(alpha-background . 50))
+
+;; (load-theme #'abyss t)
